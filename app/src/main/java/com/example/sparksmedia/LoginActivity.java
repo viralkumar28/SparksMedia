@@ -140,7 +140,7 @@ public class LoginActivity extends AppCompatActivity implements GoogleApiClient.
                     String last_name = object.getString("last_name");
                     String email = object.getString("email");
                     String id = object.getString("id");
-                    // String image_url = "https://graph.facebook.com/"+id+ "/pictures?type=normal";
+//                     String image_url = "https://graph.facebook.com/"+id+ "/pictures?type=normal";
 
                     textemail.setText(email);
                     textname.setText(first_name+" "+last_name);
@@ -153,7 +153,7 @@ public class LoginActivity extends AppCompatActivity implements GoogleApiClient.
 
                     profilePictureView.setProfileId(id);
 
-                    // Glide.with(Login.this).load(image_url).into(imageView);
+                    // Glide.with(LoginActivity.this).load(image_url).into(imageView);
 
                 } catch (JSONException e) {
                     e.printStackTrace();

@@ -1,7 +1,7 @@
 <resources>
     <string name="app_name">SparksMedia</string>
-    <string name="facebook_app_id">958755751278594</string>
-    <string name="fb_login_protocol_scheme">fb958755751278594</string>
+    <string name="facebook_app_id">1012351979695347</string>
+    <string name="fb_login_protocol_scheme">fb1012351979695347</string>
     <string name="sign_out">Sign Out</string>
     <string name="todo">TODO</string>
     <string name="sparksmedia">SparksMedia</string>

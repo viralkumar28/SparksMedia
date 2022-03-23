@@ -23,16 +23,16 @@
 
     <com.facebook.login.widget.LoginButton
         android:id="@+id/login_button"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="201dp"
+        android:layout_height="29dp"
         android:layout_gravity="center_horizontal"
         android:layout_marginStart="161dp"
         android:layout_marginEnd="162dp"
-        android:layout_marginBottom="44dp"
+        android:layout_marginBottom="48dp"
         android:minHeight="48dp"
         app:layout_constraintBottom_toTopOf="@+id/google_sign_in"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintHorizontal_bias="0.496"
         app:layout_constraintStart_toStartOf="parent"
         tools:ignore="MissingClass,TouchTargetSizeCheck" />
 
@@ -44,7 +44,6 @@
         android:layout_marginEnd="174dp"
         android:layout_marginBottom="60dp"
         android:textColor="@android:color/white"
-        android:textSize="20sp"
         app:layout_constraintBottom_toTopOf="@+id/login_button"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.448"
@@ -58,7 +57,6 @@
         android:layout_marginEnd="174dp"
         android:layout_marginBottom="56dp"
         android:textColor="@android:color/background_light"
-        android:textSize="20sp"
         app:layout_constraintBottom_toTopOf="@+id/txtemail"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.448"

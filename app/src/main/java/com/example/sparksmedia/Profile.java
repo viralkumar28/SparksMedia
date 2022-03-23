@@ -1,6 +1,4 @@
 package com.example.sparksmedia;
-
-
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 

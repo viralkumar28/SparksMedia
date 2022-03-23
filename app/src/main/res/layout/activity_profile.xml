@@ -20,12 +20,12 @@
 
     <TextView
         android:id="@+id/email"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginBottom="80dp"
         android:textColor="@color/com_facebook_primary_button_text_color"
         app:layout_constraintBottom_toTopOf="@+id/id"
-        app:layout_constraintEnd_toEndOf="parent"
+       android:gravity="center"
         app:layout_constraintHorizontal_bias="0.501"
         app:layout_constraintStart_toStartOf="parent" />
 
